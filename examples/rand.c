@@ -6,10 +6,10 @@
 int main(void) {
     puts("Generating 10 random numbers...");
 
-    srand(time(NULL));
+    srand(time(NULL));  
 
     for (int i = 0; i < 10; i++)
-        printf("%d\n", rand());
-
+        printf("Random Number %d : %d\n", i,rand());
+ 
     return 0;
 }
